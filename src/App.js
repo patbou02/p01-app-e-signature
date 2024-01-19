@@ -1,12 +1,6 @@
 import ESignature from './components/ESignature';
 import './App.css';
 
-function App() {
-  return (
-    <div>
-      <ESignature />
-    </div>
-  );
-}
+const App = () => <ESignature />;
 
 export default App;
